@@ -245,6 +245,7 @@
             this.btnCreateAccount.TabIndex = 5;
             this.btnCreateAccount.Text = "Dodaj konto";
             this.btnCreateAccount.UseVisualStyleBackColor = true;
+            this.btnCreateAccount.Click += new System.EventHandler(this.btnCreateAccount_Click);
             // 
             // btnPlaceOrder
             // 
@@ -258,6 +259,7 @@
             this.btnPlaceOrder.TabIndex = 6;
             this.btnPlaceOrder.Text = "Złóż zamówienie";
             this.btnPlaceOrder.UseVisualStyleBackColor = true;
+            this.btnPlaceOrder.Click += new System.EventHandler(this.btnPlaceOrder_Click);
             // 
             // btnAddFinish
             // 
@@ -272,6 +274,7 @@
             this.btnAddFinish.TabIndex = 7;
             this.btnAddFinish.Text = "Zakończ";
             this.btnAddFinish.UseVisualStyleBackColor = true;
+            this.btnAddFinish.Click += new System.EventHandler(this.btnAddFinish_Click);
             // 
             // btnAddAnotherAccount
             // 
@@ -286,6 +289,7 @@
             this.btnAddAnotherAccount.TabIndex = 8;
             this.btnAddAnotherAccount.Text = "Dodaj kolejne konto";
             this.btnAddAnotherAccount.UseVisualStyleBackColor = true;
+            this.btnAddAnotherAccount.Click += new System.EventHandler(this.btnAddAnotherAccount_Click);
             // 
             // NewCustomer
             // 
