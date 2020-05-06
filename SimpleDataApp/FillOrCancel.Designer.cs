@@ -117,6 +117,7 @@
             this.txtOrderID.Location = new System.Drawing.Point(196, 5);
             this.txtOrderID.Margin = new System.Windows.Forms.Padding(20, 3, 20, 3);
             this.txtOrderID.Name = "txtOrderID";
+            this.txtOrderID.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtOrderID.Size = new System.Drawing.Size(257, 30);
             this.txtOrderID.TabIndex = 2;
             // 
@@ -132,6 +133,7 @@
             this.btnFindByOrderID.TabIndex = 3;
             this.btnFindByOrderID.Text = "Znajdź zamówienie";
             this.btnFindByOrderID.UseVisualStyleBackColor = true;
+            this.btnFindByOrderID.Click += new System.EventHandler(this.btnFindByOrderID_Click);
             // 
             // flowLayoutPanel2
             // 
@@ -140,9 +142,9 @@
             this.flowLayoutPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.flowLayoutPanel2.Controls.Add(this.label2);
             this.flowLayoutPanel2.Controls.Add(this.dtpFillDate);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(209, 162);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(196, 162);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(382, 36);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(407, 36);
             this.flowLayoutPanel2.TabIndex = 4;
             // 
             // label2
@@ -153,16 +155,16 @@
             this.label2.Location = new System.Drawing.Point(20, 5);
             this.label2.Margin = new System.Windows.Forms.Padding(20, 3, 20, 3);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 25);
+            this.label2.Size = new System.Drawing.Size(161, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Id zamówienia";
+            this.label2.Text = "Data zamówienia";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dtpFillDate
             // 
             this.dtpFillDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.dtpFillDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFillDate.Location = new System.Drawing.Point(179, 3);
+            this.dtpFillDate.Location = new System.Drawing.Point(204, 3);
             this.dtpFillDate.Name = "dtpFillDate";
             this.dtpFillDate.Size = new System.Drawing.Size(200, 30);
             this.dtpFillDate.TabIndex = 2;
@@ -192,6 +194,7 @@
             this.btnCancelOrder.TabIndex = 3;
             this.btnCancelOrder.Text = "Odwołaj zamówienie";
             this.btnCancelOrder.UseVisualStyleBackColor = true;
+            this.btnCancelOrder.Click += new System.EventHandler(this.btnCancelOrder_Click);
             // 
             // btnFillOrder
             // 
@@ -205,6 +208,7 @@
             this.btnFillOrder.TabIndex = 4;
             this.btnFillOrder.Text = "Wypełnij zamówienie";
             this.btnFillOrder.UseVisualStyleBackColor = true;
+            this.btnFillOrder.Click += new System.EventHandler(this.btnFillOrder_Click);
             // 
             // btnFinishUpdates
             // 
@@ -218,6 +222,7 @@
             this.btnFinishUpdates.TabIndex = 5;
             this.btnFinishUpdates.Text = "Zakończ";
             this.btnFinishUpdates.UseVisualStyleBackColor = true;
+            this.btnFinishUpdates.Click += new System.EventHandler(this.btnFinishUpdates_Click);
             // 
             // FillOrCancel
             // 
